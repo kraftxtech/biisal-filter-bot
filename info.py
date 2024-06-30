@@ -22,7 +22,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6838708715:AAHaYciKlDgN0vVYxx_mQ4fFyUKaMcz
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7074585953').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/kraftx")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-10019494867581'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+WR7Jh4OtWmRmMmI1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://username:password@cluster0.jhvfd.mongodb.net/?retryWrites=true&w=majority")
 
