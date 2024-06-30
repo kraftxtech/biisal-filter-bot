@@ -23,10 +23,10 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://telegram.me/kraftx")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-10019494867581'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+WR7Jh4OtWmRmMmI1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://username:password@cluster0.jhvfd.mongodb.net/?retryWrites=true&w=majority")
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002065196422').split()]
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kraftx69:ZdzDTo2X1i7vEUSA@cluster0.0tjzw5v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
+DATABASE_NAME = environ.get('DATABASE_NAME', "kraftx69")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002065196422)
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
